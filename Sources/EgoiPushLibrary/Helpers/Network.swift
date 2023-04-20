@@ -20,7 +20,7 @@ public enum EventType: String {
 
 public struct Network {
     private let userDefaults = UserDefaults.standard
-    private let host = "https://api.egoiapp.com"
+    private let host = "https://dev-api.egoiapp.com"
     
     private let apiKey: String
     private let appID: String
